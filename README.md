@@ -5,8 +5,6 @@ The application source code lives in a **separate private repository**; this rep
 
 ## Try the app
 
-Replace the link below with your public deploy URL when ready (for example GitHub Pages or another host):
-
 **[Open Coffee Roast Tracker](https://get-roasted-fresh.github.io/fresh-roast-companion/)** 
 ## Report a bug
 
