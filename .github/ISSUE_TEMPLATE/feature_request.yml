@@ -1,0 +1,47 @@
+name: Feature request
+description: Suggest an improvement or new capability for Coffee Roast Tracker
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome. This is **not a promise** to build every request; we use issues to prioritize and discuss tradeoffs.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What feels missing, slow, confusing, or error-prone today?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed direction (high level)
+      description: What would "better" look like for you as a user?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Rough area (check any that apply)
+      options:
+        - label: Roast logging / timer
+        - label: Profiles / recipes / import-export
+        - label: Charts / readouts
+        - label: Guidance / copilot text
+        - label: Mobile layout
+        - label: Something else (explain in free text below)
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Workarounds you already tried (optional)
+
+  - type: textarea
+    id: willingness
+    attributes:
+      label: Would you help test a beta change? (optional)
+      description: e.g. "Yes on Safari iOS", "Yes desktop Chrome", "No"

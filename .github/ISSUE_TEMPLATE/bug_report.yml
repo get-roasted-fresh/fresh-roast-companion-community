@@ -1,0 +1,79 @@
+name: Bug report
+description: Report something wrong in Coffee Roast Tracker (the web app)
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the app. Please include enough detail that we can reproduce the problem.
+        **Do not paste secrets** (passwords, private URLs) or sensitive personal data.
+
+  - type: input
+    id: app_url
+    attributes:
+      label: Where you use the app
+      description: Paste the public URL you opened (GitHub Pages, etc.), or write "local file" if you opened index.html from disk.
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Safari
+        - Firefox
+        - Edge
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: browser_version
+    attributes:
+      label: Browser version (approximate is fine)
+      placeholder: e.g. Safari 17, Chrome 124
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Desktop / laptop
+        - Phone
+        - Tablet
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered list, starting from a fresh page load if relevant.
+      placeholder: "1. ...\n2. ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or export (optional)
+      description: Drag images in here. If helpful, attach an exported roast or recipe JSON (remove private notes first).

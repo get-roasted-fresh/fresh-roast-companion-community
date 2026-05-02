@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Community discussion
+    url: https://github.com/get-roasted-fresh/fresh-roast-companion-community/discussions
+    about: Show-and-tell, questions, or recipe ideas before opening a PR.
