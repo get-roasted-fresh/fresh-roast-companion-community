@@ -7,8 +7,7 @@ The application source code lives in a **separate private repository**; this rep
 
 Replace the link below with your public deploy URL when ready (for example GitHub Pages or another host):
 
-**[Open Coffee Roast Tracker](https://get-roasted-fresh.github.io/fresh-roast-companion/)** *(update this URL if yours differs)*
-
+**[Open Coffee Roast Tracker](https://get-roasted-fresh.github.io/fresh-roast-companion/)** 
 ## Report a bug
 
 Use **Issues → Bug report** so we get browser, steps, and what went wrong:
